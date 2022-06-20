@@ -1,41 +1,36 @@
-*~
-*.swp
-.DS_Store
-.tea
-npm-debug.log
-lerna-debug.log
-npm-debug.log*
-package-lock.json
-yarn-error.log
-esm/
-temp_esm/
-dist/
-node_modules/
-examples/test
-.idea/
-.vscode/
-tsconfig.tsbuildinfo
-doc-site
-.lerna-changelog
-.history
-.lint-report.log
-.umi
-.umi-production
-*.lock
-.expo/
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# @generated: @expo/electron-adapter@0.0.55
-/.expo/*
-# Expo Web
-/web-build/*
-# electron-webpack
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/renderer/.next/
+/renderer/out/
+
+# production
+/main
 /dist
-# @end @expo/electron-adapter
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+.idea
