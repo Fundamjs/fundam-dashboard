@@ -22,3 +22,20 @@ doc-site
 .umi
 .umi-production
 *.lock
+.expo/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# @generated: @expo/electron-adapter@0.0.55
+/.expo/*
+# Expo Web
+/web-build/*
+# electron-webpack
+/dist
+# @end @expo/electron-adapter
